@@ -1,0 +1,65 @@
+:root {
+    --primary-font-family: 'Roboto', sans-serif;
+    --secondary-font-family: 'Raleway', sans-serif;
+    --header-text-color: #212121;
+    --text-color: #757575;
+    --secondary-text-color-theme-light: #303030;
+    --accent-color: #2196f3;
+}
+
+body {
+    font-family: var(--primary-font-family);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    cursor: pointer;
+}
+.header-logo {
+    font-family: var(--secondary-font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.header {
+}
+
+.navigation {
+}
+
+.nav-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--header-text-color);
+}
+
+.nav-list-link {
+    color: var(--text-color);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+
+.header-contacts {
+}
+
+.main-btn {
+}
+
+.logo-studio-header {
+    color: var(--header-text-color);
+}
+
+.logo-studio-footer {
+}
