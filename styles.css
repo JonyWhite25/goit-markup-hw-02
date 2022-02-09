@@ -12,9 +12,9 @@
 
 body {
     font-family: var(--primary-font-family);
-    background-color: tomato;
+    /* background-color: tomato; */
     color: #757575;
-    /* background-color: #ffffff; */
+    background-color: #ffffff;
 }
 
 .list {
